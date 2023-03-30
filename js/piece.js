@@ -239,7 +239,7 @@ export class King extends Piece
         this.image = new Image(50, 50);
         this.image.src = "media/king_"+this.color+".png";
 
-        this.radar = [[1, 0], [1, 1], [0, -1], [-1, -1], [-1, 0], [-1, 1], [0, 1], [1, 1]]
+        this.radar = [[0, 1], [1, 1], [1, 0], [1, -1], [0, -1], [-1, -1], [-1, 0], [-1, 1]]
     }
 
     
